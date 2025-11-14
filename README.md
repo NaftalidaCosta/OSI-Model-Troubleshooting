@@ -11,19 +11,23 @@ Thus, before you begin inspecting service architectures, you should start with t
 ## Data Link Layer
 ```
 Moving up to the Data Link layer, you verify data link architectures, such as compatibility with a particular standard or frame type.
-Although Ethernet is a predominant LAN network standard, devices that roam (such as wireless devices) sometimes automatically switch between Wi-Fi, Bluetooth, and Ethernet networks. Wireless networks usually have specified encryption standards and keys. Connectivity may be lost because a network device or service has been restored to a previous setting and the device is not responding to endpoint requests that are using different settings.
-Firewalls and other security policies may also be interfering with connection requests. You should never disable firewalls, but in a controlled network environment with proper procedures established, you may find that temporarily disabling or bypassing a security appliance resolves a connectivity issue. The remedy then is to properly configure security services to allow the required connections.
+Although Ethernet is a predominant LAN network standard, devices that roam (such as wireless devices) sometimes automatically switch between Wi-Fi, Bluetooth, and Ethernet networks. Wireless networks usually have specified encryption standards and keys.
+Connectivity may be lost because a network device or service has been restored to a previous setting and the device is not responding to endpoint requests that are using different settings.
+Firewalls and other security policies may also be interfering with connection requests.
+You should never disable firewalls, but in a controlled network environment with proper procedures established, you may find that temporarily disabling or bypassing a security appliance resolves a connectivity issue. The remedy then is to properly configure security services to allow the required connections.
 ```
 
 ## Network Layer
 
 ```
 Various connectivity problems may also occur at the Network layer.
-
-Important troubleshooting steps include confirming proper network names and addresses. Devices may have improperly assigned IP addresses that are causing routing issues or IP address conflicts on the network. A device may have an improperly configured IP address because it cannot communicate with a DHCP server on the network.
-Similarly, networks have different identities, such as wireless SSIDs, domain names, and workgroup names. Another common problem exists when a particular network has conflicting names or addresses. Issues with DNS name resolvers may be caused by DNS caching services or connection to the wrong DNS servers. 
+Important troubleshooting steps include confirming proper network names and addresses. Devices may have improperly assigned IP addresses that are causing routing issues or IP address conflicts on the network.
+A device may have an improperly configured IP address because it cannot communicate with a DHCP server on the network.
+Similarly, networks have different identities, such as wireless SSIDs, domain names, and workgroup names.
+Another common problem exists when a particular network has conflicting names or addresses. Issues with DNS name resolvers may be caused by DNS caching services or connection to the wrong DNS servers. 
 Internet Control Message Protocol (ICMP) is used for network control and diagnostics at the Network layer of the OSI model. Commonly used ICMP commands include ping and traceroute.
-These two simple but powerful commands (and other ICMP commands and options) are some of the most commonly used tools for troubleshooting network connectivity issues. You can run ICMP commands in the command line interface on computers, servers, routers, switches, and many other networked devices.
+These two simple but powerful commands (and other ICMP commands and options) are some of the most commonly used tools for troubleshooting network connectivity issues.
+You can run ICMP commands in the command line interface on computers, servers, routers, switches, and many other networked devices.
 
 ```
 
