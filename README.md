@@ -66,3 +66,104 @@ Some apps also require persistent connections to update services or third partie
 
 
 ### Example Usage
+
+---
+
+## 📚 Content
+
+### 1. Physical Layer
+- **Goal:** Ensure physical connectivity is working.  
+- **Troubleshooting Checklist:**
+  - Check for loose or damaged cables.
+  - Confirm devices are powered on and receiving electricity.
+  - Test wireless access points and antennas.  
+- **Practical Example:**  
+  A loose Ethernet cable can cause connection loss. Always start with the basics: **confirm physical connectivity**.
+
+---
+
+### 2. Data Link Layer
+- **Goal:** Validate compatibility of link-layer standards and protocols.  
+- **Troubleshooting Checklist:**
+  - Confirm the device is using the correct standard (Ethernet, Wi-Fi, Bluetooth).
+  - Verify encryption keys and security settings.
+  - Review firewall and security policies.  
+- **Practical Example:**  
+  A device may lose connectivity when switching between Wi-Fi and Bluetooth. Adjust configurations to ensure compatibility.
+
+---
+
+### 3. Network Layer
+- **Goal:** Resolve addressing and routing issues.  
+- **Troubleshooting Checklist:**
+  - Confirm IP addresses and subnet masks.
+  - Check for IP conflicts or DHCP failures.
+  - Test DNS name resolution.  
+- **Useful Tools:**
+  - `ping` → Tests basic connectivity.  
+  - `traceroute` → Identifies the path to the destination.  
+- **Practical Example:**  
+  If a website doesn’t load, it may be a DNS issue. Test with `ping` using the IP directly to confirm.
+
+---
+
+### 4. Transport Layer
+- **Goal:** Ensure communication is reliable and efficient.  
+- **Troubleshooting Checklist:**
+  - Analyze latency and network congestion.
+  - Adjust **TTL** values when necessary.
+  - Check bandwidth-heavy services (backups, antivirus scans).  
+- **Practical Example:**  
+  During peak hours, congestion may cause failures. Adjusting transport parameters can help stabilize connections.
+
+---
+
+### 5. Session Layer
+- **Goal:** Manage and maintain communication sessions between devices.  
+- **Troubleshooting Checklist:**
+  - Verify that sessions are being established and maintained correctly.
+  - Check authentication and authorization processes.
+  - Ensure session timeouts are properly configured.  
+- **Practical Example:**  
+  If a user is repeatedly disconnected from a remote desktop session, the issue may be related to session timeout settings or improper authentication.
+
+---
+
+### 6. Presentation Layer
+- **Goal:** Ensure data is properly formatted, encrypted, and translated for communication.  
+- **Troubleshooting Checklist:**
+  - Confirm that encryption/decryption settings are correct.
+  - Verify data format compatibility (e.g., ASCII vs. Unicode).
+  - Check compression settings if data transfer is slow.  
+- **Practical Example:**  
+  If a file transfer results in unreadable characters, the issue may be due to mismatched encoding formats between devices.
+
+---
+
+### 7. Application Layer
+- **Goal:** Troubleshoot issues with applications and services that interact directly with users.  
+- **Troubleshooting Checklist:**
+  - Verify application configurations (e.g., email client, web browser).
+  - Check for proper credentials and permissions.
+  - Ensure services (HTTP, FTP, SMTP, etc.) are running and accessible.  
+- **Practical Example:**  
+  If a user cannot send emails, the issue may be with the SMTP server configuration or incorrect login credentials.
+
+---
+
+## 🎯 How to Use This Repository
+- Read each section to understand how to diagnose problems at each OSI layer.  
+- Apply the **checklists** in real troubleshooting scenarios.  
+- Contribute with practical examples and tips via **Pull Requests**.  
+
+---
+
+## 🤝 Contributions
+If you have experience in network troubleshooting, feel free to contribute with examples, tools, or real-world cases.  
+
+---
+
+## 📜 License
+This project is distributed under the MIT License.  
+
+---
