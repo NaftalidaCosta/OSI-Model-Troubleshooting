@@ -23,7 +23,8 @@ Firewalls and other security policies may also be interfering with connection re
 Various connectivity problems may also occur at the Network layer.
 
 Important troubleshooting steps include confirming proper network names and addresses. Devices may have improperly assigned IP addresses that are causing routing issues or IP address conflicts on the network. A device may have an improperly configured IP address because it cannot communicate with a DHCP server on the network.
-Similarly, networks have different identities, such as wireless SSIDs, domain names, and workgroup names. Another common problem exists when a particular network has conflicting names or addresses. Issues with DNS name resolvers may be caused by DNS caching services or connection to the wrong DNS servers. Internet Control Message Protocol (ICMP) is used for network control and diagnostics at the Network layer of the OSI model. Commonly used ICMP commands include ping and traceroute.
+Similarly, networks have different identities, such as wireless SSIDs, domain names, and workgroup names. Another common problem exists when a particular network has conflicting names or addresses. Issues with DNS name resolvers may be caused by DNS caching services or connection to the wrong DNS servers. 
+Internet Control Message Protocol (ICMP) is used for network control and diagnostics at the Network layer of the OSI model. Commonly used ICMP commands include ping and traceroute.
 These two simple but powerful commands (and other ICMP commands and options) are some of the most commonly used tools for troubleshooting network connectivity issues. You can run ICMP commands in the command line interface on computers, servers, routers, switches, and many other networked devices.
 
 ```
@@ -32,7 +33,8 @@ These two simple but powerful commands (and other ICMP commands and options) are
 
 ```
 At the Transport layer, communications are more complex. Latency and network congestion can interfere with communications that depend on timely acknowledgments and handshakes.
-Time-to-live (TTL) values sometimes have to be extended in the network service architecture to allow for slower response times during peak network traffic hours. Similar congestion problems can occur when new services are added to an existing network or when a local device triggers a prioritized service, such as a backup or an antivirus scan.
+Time-to-live (TTL) values sometimes have to be extended in the network service architecture to allow for slower response times during peak network traffic hours.
+Similar congestion problems can occur when new services are added to an existing network or when a local device triggers a prioritized service, such as a backup or an antivirus scan.
 
 ```
 
